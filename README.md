@@ -1,4 +1,3 @@
-
 # Vaca Bot
 
 Introducing Vaca-Bot, an innovative new app that uses the power of the OpenAI API to generate text
@@ -6,7 +5,6 @@ Introducing Vaca-Bot, an innovative new app that uses the power of the OpenAI AP
 ## Authors
 
 - [@jsmarenco](https://www.github.com/jsmarenco)
-
 
 ## Environment Variables
 
@@ -34,9 +32,13 @@ Install dependencies
   npm install
 ```
 
+Put your Api Key
+```bash
+  cp .env.example .env
+```
+
 Start the server
 
 ```bash
   npm run dev
 ```
-
